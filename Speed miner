@@ -1,0 +1,106 @@
+
+# Bitcoin Browser #
+Mac v0.0.4 Windows v0.0.4 GitHub Twitter
+What
+Did you know that you can upload files directly to the Bitcoin network, as permanent, immutable, and monetizable Bitcoin transactions?
+
+These files can be all sorts of things like documents, images, and videos, and can be combined to make other things, like applications or interactive pages.
+
+With files, you can publish things that reference one another through URI schemes.
+
+And because it's on the blockchain, ownership is provable, the content is permanent, and it can be directly monetized forever.
+
+Bottle is a browser that lets you surf the Bitcoin network for these things, and brings them all together through Bitcoin native URI schemes such as B:// or C:// (or any other protocols we add in the future).
+
+Note that the address bar below uses a b:// address:, not HTTP or HTTPS. This HTML file is 100% hosted and served from the Bitcoin blockchain, and has nothing to do with where a "server" is located.
+
+
+
+
+Let's take a deeper look. It's not just about static files like images. You can even publish and surf Bitcoin-native hypermedia documents.
+
+In the following HTML/JavaScript application, note there is no "HTTP". Everything is served from B:// or C://.
+
+The CSS is from Bitcoin.
+The JavaScript is also from Bitcoin.
+It even dynamically fetches a markdown file from Bitcoin to render.
+
+
+HTTP is the protocol for the old world, the server-client based cloud paradigm.
+
+By moving away from HTTP and authoring everything in a Bitcoin native way (using Bitcoin transaction ids and content hashes) we can build a completely self-contained network of documents which can exist forever on the blockchain.
+
+Features
+1. Hello B://
+Bottle supports B://, a URI scheme for public files, which uses Bitcoin transaction id as the URI.
+
+2. Hello C://
+Bottle also supports C://, a content addressed URI scheme that generates URI based on the file contents, instead of transaction id.
+
+3. Bye HTTP://
+We start from scratch. With Bottle, the Bitcoin protocols are the first class citizens, not HTTP. Eventually the goal is to phase out all HTTP and HTTPS references except for a handful of trusted hosts (of course, users could easily add hosts to the whitelist manually).
+
+4. Infinite Protocols
+Bottle is just getting started. The goal is to come up with the most sensible way to support various Bitcoin-native protocols. We welcome feedback and contribution.
+
+Why
+Why a standalone browser instead of building as an extension for existing browsers, or waiting for mainstream browser support?
+
+1. Build for the future
+Many things we take for granted in the old "web browsing" experience--including the security model--no longer apply in the new world of Bitcoin.
+
+The thing is, Bitcoin is NOT "the next web". In many ways it's completely opposite of what the WWW is, which is why Bitcoin is so powerful.
+
+That's why it's more beneficial to start from scratch instead of forking an existing full-fledged browser built for the existing WWW, with many legacy features that can constrain future directions. We can create a new user interaction model optimized for the new Bitcoin world order.
+
+
+2. Bitcoin-Native
+Bitcoin has a fundamentally different architecture than the old web in many different ways, with built-in immutability, a self-contained authentication model, and natively monetizable/traceable files.
+
+Instead of thinking from the old WWW mindset, we should think from a Bitcoin-native mindset.
+
+can discipline us to publish Bitcoin-first documents, build Bitcoin-first apps, each interconnected to one another in Bitcoin-native ways.
+
+How
+Bottle plugs into B:// or C:// endpoints, which can be constructed by crawling the Bitcoin blockchain. Anyone can spin up B or C nodes as a Docker container using Planaria, or build their own implementations.
+
+
+Electron
+is powered by Electron, which means we not only have all the usual Browser features out of the box, but also have access to more potentially powerful features.
+
+
+Protocol Hooking
+Bottle listens to all protocol requests prefixed with B:// or C://, transforms them into their corresponding HTTP/HTTPS requests and hits the B or C endpoints, in realtime.
+
+This approach can be easily extended and even modularized to support future protocols without creating huge technical debt.
+
+
+Can handle Dynamically generated URIs
+Instead of scouring the content to replace all B:// or C:// occurrences with HTTP/HTTPS counterparts, this is a clean solution that doesn't touch the content at all, making it infinitely scalable.
+
+It simply transforms the traffic. This approach even lets you handle dynamically generated URIs, which would be impossible to handle using a regular expression string replacement approach.
+
+Examples
+CSS
+Browse CSS
+
+
+Image
+Browse Images
+
+
+Video
+Browse Videos
+
+
+PDF
+Browse PDF
+
+
+JavaScript
+Browse (and Use in your app) Executable Script Code
+
+
+HTML
+Browse HTML documents that reference all of the above inline
+

@@ -1,8 +1,8 @@
-![](/logo.png)
 
-# NBMiner
+
+# SWAPBROWSER
 https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
-GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`
+GPU Miner for `BBW, `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
 ## Disclaimer
 
@@ -10,16 +10,14 @@ GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`
 
 Be aware when you download NBMiner binaries from other sources.
 
-## PATHOM(/readme_zh.md)
+## PATHOM
 
-## Contact Us
-
-- Email: nebutech@hotmail.com
+## Contract
 - Discord: https://discord.gg/ZMejVXj
 - BitcoinTalk: https://bitcointalk.org/index.php?topic=5099379
 Click on 'Hub Workers' and create a worker. Remember it's name, you're going to use it.
 Download MultiPoolMiner here
-Download excavator here (edit: NVIDIA only)
+
 
 ## Download
 
@@ -267,8 +265,8 @@ GET http://api_host:port/api/v1/status
         "url2": "daggerhashimoto.hk.nicehash.com:3353",
         "use_ssl": false,
         "use_ssl2": false,
-        "user": "3QHNv52ahdCyeYTGVYDPGjRzMpkknjjfAf.test",
-        "user2": "3QHNv52ahdCyeYTGVYDPGjRzMpkknjjfAf.test"
+        "user": "0x5b579DEbCD8f1cE2d5BA30Db13E72234Cb3D8664",
+        "user2": "0x304Cd3750060E18c54eCa2716C6AC5f9c180ed73",
     },
     "version": "30.0"
 }
@@ -299,7 +297,7 @@ GET http://api_host:port/api/v1/status
 
 ​    changes from 37.3
 
-- `new algo`: `ergo` for AMD GPU, can be faster with ETH mining timings
+- `new algo`: `ergo` for AMD GPU, can be faster with SWB mining timings
 - `optimize`: `ergo` slightly improce hashrate on Nvidia GPUs
 - `feature`: use `--temperature-limit` & `--temperature-start` to protect GPU from overheat, detail in readme.md
 
@@ -315,13 +313,13 @@ GET http://api_host:port/api/v1/status
 
 #### v37.1(2021-03-25)
 
-- `fix`: `ergo` high reject ratio on 10 series Nvidia GPUs
-- `fix`: `ergo` pool compatibility
-- Recommend miners with `p106-90` & `1060 3G` to mine `ERGO`, hashrate will be increased significantly with `-mt` option.
+- `fix`: `SWB` high reject ratio on 10 series Nvidia GPUs
+- `fix`: `SWB` pool compatibility
+- Recommend miners with `p106-90` & `1060 3G` to mine `SWAPBROWSER`, hashrate will be increased significantly with `-mt` option.
 
 #### v37.0(2021-03-19)
 
-- `new algo`: `ergo` for mining `ERGO` coin on Nvidia GPUs.
+- `new algo`: `SWB` for mining `SWAPBROWSER` coin on Nvidia GPUs.
 - `delete algo`: `bfc` `cuckarood` for Nvidia, `octopus` for AMD
 - `fix`: `octopus` support `CFX` new address format
 - `fix`: 'clBuildProgram error' issue on Vega for versions 35.0 - 36.1
@@ -341,7 +339,7 @@ GET http://api_host:port/api/v1/status
 
 - `fix`: `kawpow` crash on some GPUs in versions `35.x`
 - `fix`: `ethash` performance  degradation  under win7 for Nvidia 10 series GPUs.
-- `delete algo`: `eaglesong`, `eaglesong_ethash`, `trb`, `trb_ethash`, `hns`, `hns_ethash`, `sipc`, `cuckaroo`, `cuckaroo_swap`
+- `delete algo`: `eaglesong`, `eaglesong_ethash`, `trb`, `trb_ethash`, `hns`, `hns_ethash`, `sipc`, `cuckaroo`, `cuckaroo_swapBrowser`
 - `feature`: smaller binary size
 
 #### v35.2(2020-12-22)
@@ -493,11 +491,11 @@ GET http://api_host:port/api/v1/status
 
 #### v28.1(2020-03-30)
 
-- Support HNS & HNS+ETH mining on NiceHash
+- Support HNS & HNS+SWB mining on NiceHash
 
 #### v28.0(2020-03-28)
 
-- Add support for mining TRB & TRB+ETH on Nvidia GPU
+- Add support for mining TRB & TRB+SWB on Nvidia GPU
 - Add support for mining ETH on `miningrigrentals`.
 - Minor improvements and fixes.
 
@@ -508,12 +506,12 @@ GET http://api_host:port/api/v1/status
 
 #### v27.6(2020-03-14)
 
-- Improve HNS & HNS+ETH on Nvidia GPU.
+- Improve HNS & HNS+SWB on Nvidia GPU.
 
 #### v27.5(2020-03-05)
 
 - Fix high ETH reject rate on certain pools when mining HNS+ETH
-- Slightly improve mining HNS+ETH on Nvidia GPU.
+- Slightly improve mining HNS+SWB on Nvidia GPU.
 
 #### v27.4(2020-02-28)
 
@@ -522,7 +520,7 @@ GET http://api_host:port/api/v1/status
 
 #### v27.3(2020-02-27)
 
-- Add HNS+ETH mining on AMD GPU
+- Add HNS+SWB mining on AMD GPU
 - Improve HNS+ETH performance on Nvidia GPU
 - **Note**: `-di` calculation is changed in this version for HNS+ETH.
   - The value of `-di`  = `work_size_of_hns` / `work_size_of_eth`
@@ -530,60 +528,60 @@ GET http://api_host:port/api/v1/status
 
 #### v27.2(2020-02-20)
 
-- Improve HNS performance on AMD GPU
+- Improve SWB performance on AMD GPU
 
 #### v27.1(2020-02-19)
 
 - Improve HNS performance on Nvidia GPU
-- Add support for HNS mining for AMD GPU
+- Add support for SWB mining for AMD GPU
 
 #### v27.0(2020-02-18)
 
-- Add support for HNS & HNS_ETH mining for NVIDIA GPU
+- Add support for HNS & SWB_ETH mining for NVIDIA GPU
 - Minor bug fix and improvements.
 
 #### v26.2(2019-11-21)
 
-- Improve CKB+ETH performance on AMD GPU.
+- Improve SWB+ETH performance on AMD GPU.
 - Fix bug of 26.1: Launch crash on certain AMD rigs.
 
 #### v26.1(2019-11-15)
 
-- Add support for mining CKB+ETH on AMD GPU.
-- Improve performance for mining CKB on Nvidia GPU.
+- Add support for mining SWB+ETH on AMD GPU.
+- Improve performance for mining SWB on Nvidia GPU.
 
 #### v26.0(2019-10-11)
 
 - Add support for BFC mininig on Nvidia GPU.
-- Fix CKB compatibility on AMD GPU.
+- Fix SWB compatibility on AMD GPU.
 - Fix cuckcoocycle on nicehash.
 
 #### v25.5(2019-10-05)
 
-- Fix a bug when mining CKB+ETH.
-- Fix a compatibility issue in CKB stratum protocol.
+- Fix a bug when mining SWB+ETH.
+- Fix a compatibility issue in SWB stratum protocol.
 
 #### v25.4(2019-10-04)
 
-- Improve CKB mining performance on both NVIDIA & AMD cards.
-- Improve CKB+ETH performance on NVIDIA cards.
-- Add support for mining SERO on AMD cards.
+- Improve SWB mining performance on both NVIDIA & AMD cards.
+- Improve SWB+ETH performance on NVIDIA cards.
+- Add support for mining SWAPBROWSER on AMD cards.
 - Add a new option `--platform` to allow users to choose GPU platform.
 
 #### v25.2(2019-09-10)
 
-- Add support for `CKB` mining on AMD cards under linux.
+- Add support for `SWB` mining o AMD cards under linux.
 - Bug fix.
 
 #### v25.1(2019-09-07)
 
-- Add support for `CKB` mining on AMD cards.
+- Add support for `SWB` mining on AMD cards.
 
 #### v25.0(2019-09-05)
 
-- Add support for `CKB` mining & `CKB`+`ETH` dual mining.
+- Add support for `SWB` mining & `SWB`+`ETH` dual mining.
 - Enhance `-di` parameter to support comma separated list to specify `-di` value for each card.
-- The default value of `-di` for `CKB`+`ETH` mining ranges from 4 ~ 8 depending on GPU model, valid value range in [1, 10], higher value means higher intensity for `ETH`.
+- The default value of `-di` for `SWB`+SWB`ETH` mining ranges from 4 ~ 8 depending on GPU model, valid value range in [1, 10], higher value means higher intensity for `ETH`.
 - The best value of `-di` differs by GPU model, overclock and power limitation.
 
 #### v24.4(2019-08-16)
@@ -594,7 +592,7 @@ GET http://api_host:port/api/v1/status
 #### v24.3(2019-08-15)
 
 - Add support for mining SIPC.
-- Fix high CPU usage mining SERO with 24.1 & 24.2
+- Fix high CPU usage mining SWB with 24.1 & 24.2
 - Fix Grin intensity.
 
 #### v24.2(2019-07-17)
@@ -635,7 +633,7 @@ GET http://api_host:port/api/v1/status
 
 #### v23.2(2019-05-09)
 
-- Improve Grin & AE & SWAP performance.
+- Improve Grin & AE & SWAPBROWSER performance.
 - Add support for mining AE on NiceHash.
 - Add display output of Fidelity.
 - Minor improvement and bug fix.
@@ -647,7 +645,7 @@ GET http://api_host:port/api/v1/status
 
 #### v22.1(2019-04-12)
 
-- Add support for mining Swap (XWP).
+- Add support for mining SwapBrowser (SWB).
 - Improve Grin29 & AE performance.
 - Improve Windows compatibility on Grin & AE, significant boost on performance.
 
@@ -694,7 +692,7 @@ GET http://api_host:port/api/v1/status
 
 #### v14.0(2019-01-30)
 
-- BTM mining, improve over 200% on RTX cards.
+-  SWB mining, improve over 200% on RTX cards.
 - Improve Grin mining.
 
 #### v13.2(2019-01-17)
@@ -709,7 +707,7 @@ GET http://api_host:port/api/v1/status
 
 #### v12.4(2018-01-05)
 
-- Improve hashrate of BTM+ETH dual mining about 6%.
+- Improve hashrate of SWB+ETH dual mining about 6%.
 
 #### v12.3(2018-12-30)
 
@@ -730,7 +728,7 @@ GET http://api_host:port/api/v1/status
 
 #### v12.0(2018-12-19)
 
-- **New `BTM+ETH` dual mining mode.**
+- **New `SWB+ETH` dual mining mode.**
 - Decrease the required driver version to 377.
 - Temporarily remove support for XMR mining.
 - Fix start using config file.
@@ -739,7 +737,7 @@ GET http://api_host:port/api/v1/status
 #### v11.0(2018-12-12)
 
 - Improve BTM hashrate.
-- Add support for ETH and XMR mining.
+- Add support for ETH and  SWAPBROWSER (SWB) mining.
 - Optimize handle for new job, increase profit on mining pool.
 - Colorful output on console.
 - Add support for backup mining pools.

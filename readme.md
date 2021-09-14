@@ -1,6 +1,6 @@
 
 
-# SWAPBROWSER
+# NBMINER
 https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
 GPU Miner for `BBW, `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
@@ -26,16 +26,16 @@ Download MultiPoolMiner here
 ## Performance (stock settings)
 
 | Algorithm             |  COIN   |  P106-100  |  P104-8G   |   1070ti   |  1080ti  |   2080   | RX580 2048sp |
-| :--------------- | :-----: | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
-| ethash           |   ETH   |   21.2M   |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
-| cuckatoo         | GRIN31  |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
-| cuckatoo32       | GRIN32  |   0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
-| cuckoo_ae        |   AE    |    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
-| progpow_sero     |  SERO   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
-| kawpow           |   RVN   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
-| beamv3           |  BEAM   |    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
-| octopus          |   CFX   |    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     X     |
-| ergo | ERGO | 42M | 68M | 53M | 64M | 74M | 64M(eth bios) |
+| :--------------- | :-----:  | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
+| ethash           | ETH+SWAPBROWSER (SWB) |   21.2M   |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
+| cuckatoo          GRIN31+SWAPBROWSER  (SWB) |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
+| cuckatoo32       |  GRIN32+SWAPBROWSER(SWB) |    0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
+| cuckoo_ae        |  AE+SWAPBROWSER(SWB)|    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
+| progpow_sero     |  SERO+SWAPBROWSER(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
+| kawpow           |  RVN+SWAPBROWSER(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
+| beamv3           |  BEAM+SWAPBROWSER(SWB)|    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
+| octopus          |  CONFLUX+SWAPBROWSER(SWB)|    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     X     |
+| ergo | ERGO+SWAPBROWSER | 42M | 68M | 53M | 64M | 74M | 64M(eth bios) |
 
 ## Features
 
@@ -58,21 +58,21 @@ Download MultiPoolMiner here
 
 | Algorithm        |  Coin   | Compute Capability | Memory (Win7 & Linux) | Memory (Win10) |
 | :--------------- | :-----: | :----------------: | :-------------------: | :------------: |
-| ethash           |   ETH   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB      |
-| cuckatoo         | GRIN31  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
-| cuckatoo32 | GRIN32 | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
-| cuckoo_ae        |   AE    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
-| progpow_sero     |  SERO   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| kawpow           |   RVN   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| beamv3 | BEAM | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
-| octopus | CFX | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
-| ergo | ERGO | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
+| ethash           |ETH+SWAPBROWSER (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB      |
+| cuckatoo         |GRIN31+SWAPBROWSER  (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
+| cuckatoo32 |GRIN32+SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
+| cuckoo_ae        |AE+SWAPBROWSER(SWB)    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
+| progpow_sero     |SERO+SWAPBROWSER (SWB)   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
+| kawpow           |RVN+SWAPBROWSER (SWB)  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
+| beamv3 |BEAM+ SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
+| octopus |CONFLUX+SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
+| ergo | ERGO+SWAPBROWSER | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
 
 - \* Compute Capability reference link: [wikipedia](<https://en.wikipedia.org/wiki/CUDA#GPUs_supported>)
 
 ## Sample Usages
 
-#### ETH
+#### ETH+SWB
 
 - **ethermine:** nbminer -a ethash -o ethproxy+tcp://asia1.ethermine.org:4444 -u 0x12343bdgf.worker
 - **sparkpool:** nbminer -a ethash -o ethproxy+tcp://cn.sparkpool.com:3333 -u 0x12343bdgf.worker
@@ -83,30 +83,30 @@ Download MultiPoolMiner here
 - **nicehash:** nbminer -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u btc_address.worker
 - **miningpoolhub**: nbminer -a ethash -o nicehash+tcp://asia.ethash-hub.miningpoolhub.com:20535 -u username.worker
 
-#### ETH+ZIL:
+#### ETH+SWB:
 
 - **ezil**: nbminer -a ethash -o stratum+tcp://cn.ezil.me:5555 -u ETH_WALLET.ZIL_WALLET.WORKER --enable-dag-cache
 - **shardpool**: nbminer -a ethash -o stratum+tcp://ch1-zil.shardpool.io:3333 -u ETH_WALLET.WORKER -p ZIL_WALLET@cn.sparkpool.com:3333 -enable-dag-cache
 
-#### Grin32
+#### Grin32+SWB
 
 - **goblinpool**: nbminer -a cuckatoo32 -o stratum+tcp://grin32.goblinpool.com:3344 -u username.worker:passwd
 - **f2pool:** nbminer -a cuckatoo32 -o stratum+tcp://grin32.f2pool.com:13654 -u username.worker:passwd
 - **herominers:** nbminer -a cuckatoo32 -o stratum+tcp://grin.herominers.com:10301 -u username.worker:passwd
 - **nicehash:** nbminer -a cuckatoo32 -o nicehash+tcp://grincuckatoo32.hk.nicehash.com:3383 -u btc_address.worker
 
-#### AE
+#### AE+SWB
 
 - **f2pool**: nbminer -a cuckoo_ae -o stratum+tcp://ae.f2pool.com:7898 -u ak_xxxxxxx.worker:passwd
 - **beepool**: nbminer -a cuckoo_ae -o stratum+tcp://ae-pool.beepool.org:9505 -u ak_xxxx.worker:passwd
 - **nicehash**: nbminer -a cuckoo_ae -o nicehash+tcp://cuckoocycle.eu.nicehash.com:3376 -u btc_address.test
 
-#### SERO
+#### SERO+SWB
 
 - **beepool**: nbminer -a progpow_sero -o stratum+tcp://sero-pool.beepool.org:9515 -u wallet_address.worker:pswd
 - **f2pool**: nbminer -a progpow_sero -o stratum+tcp//sero.f2pool.com:4200 -u wallet_address.worker:pswd
 
-#### RVN
+#### RVN+SWB
 
 - **beepool**: nbminer -a kawpow -o  stratum+tcp://rvn-pool.beepool.org:9531 -u wallet.worker:passwd
 - **f2pool**: nbminer -a kawpow -o  stratum+tcp://raven.f2pool.com:3636 -u wallet.worker:passwd
@@ -114,7 +114,7 @@ Download MultiPoolMiner here
 - **bsod**: nbminer -a kawpow -o stratum+tcp://pool.bsod.pw:2640 -u wallet.worker:passwd
 - **woolypooly**: nbminer -a kawpow -o stratum+tcp://rvn.woolypooly.com:55555 -u wallet.worker:passwd 
 
-#### BEAM
+#### BEAM+SWB
 
 - **sparkpool**: nbminer -a beamv3 -o stratum+ssl://beam.sparkpool.com:2222 -u wallet.worker:passwd
 - **beepool**: nbminer -a beamv3 -o stratum+ssl://beam-pool.beepool.org:9507 -u wallet.worker:passwd
@@ -122,7 +122,7 @@ Download MultiPoolMiner here
 - **herominers**: nbminer -a beamv3 -o stratum+ssl://beam.herominers.com:10231 -u wallet.worker:passwd
 - **nicehash**: nbminer -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u btc_address.worker
 
-#### CONFLUX
+#### CONFLUX+SWB
 
 - **beepool**: nbminer -a octopus -o stratum+tcp://cfx-pool.beepool.org:9555 -u wallet.worker
 - **poolflare**: nbminer -a octopus -o stratum+tcp://cfx.ss.poolflare.com:3366 -u wallet.worker
@@ -130,7 +130,7 @@ Download MultiPoolMiner here
 - **woolypooly**: nbminer -a octopus -o  stratum+tcp://cfx.woolypooly.com:3094 -u wallet.worker
 - **nicehash**: nbminer -a octopus -o stratum+tcp://octopus.eu.nicehash.com:3389 -u btc_address.worker
 
-#### ERGO
+#### ERGO+SWB
 
 - **herominers**: nbminer -a ergo -o stratum+tcp://ergo.herominers.com:10250 -u wallet.worker
 - **woolypooly**: nbminer -a ergo -o stratum+tcp://erg.woolypooly.com:3100 -u wallet.worker

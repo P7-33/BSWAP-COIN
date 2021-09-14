@@ -19,6 +19,9 @@ Be aware when you download NBMiner binaries from other sources.
 - Email: nebutech@hotmail.com
 - Discord: https://discord.gg/ZMejVXj
 - BitcoinTalk: https://bitcointalk.org/index.php?topic=5099379
+Click on 'Hub Workers' and create a worker. Remember it's name, you're going to use it.
+Download MultiPoolMiner here
+Download excavator here (edit: NVIDIA only)
 
 ## Download
 

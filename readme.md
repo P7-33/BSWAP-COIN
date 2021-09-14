@@ -1,7 +1,7 @@
 ![](/logo.png)
 
 # NBMiner
-
+https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
 GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`
 
 ## Disclaimer

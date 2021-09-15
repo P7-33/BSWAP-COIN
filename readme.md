@@ -1,7 +1,8 @@
 
 
-# NBMINER
+
 https:// github.com/afortunado21/BROWSER
+https://github.com/P7-33/SWAPBROWSER.wiki.git
 https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
 GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
@@ -12,12 +13,8 @@ GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`,
 Be aware when you download NBMiner binaries from other sources.
 
 ## Contract
-- Discord: https://discord.gg/ZMejVXj
+
 - BitcoinTalk: https://bitcointalk.org/index.php?topic=5099379
-Click on 'Hub Workers' and create a worker. Remember it's name, you're going to use it.
-Download MultiPoolMiner here
-
-
 ## Download
 
 [Download here](https://github.com/NebuTech/BTMiner_NebuTech/releases)

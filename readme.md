@@ -1,16 +1,15 @@
 
 
 # NBMINER
+https:// github.com/afortunado21/BROWSER
 https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
-GPU Miner for `BBW, `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
+GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
 ## Disclaimer
 
 [nbminer.com](https://nbminer.com) & [NBMiner_github](https://github.com/NebuTech/NBMiner) are the only 2 officially maintained site for publishing information and new releases of NBMiner.
 
 Be aware when you download NBMiner binaries from other sources.
-
-## PATHOM
 
 ## Contract
 - Discord: https://discord.gg/ZMejVXj

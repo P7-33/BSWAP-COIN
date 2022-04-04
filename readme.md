@@ -2,8 +2,6 @@
 
 
 https:// github.com/afortunado21/BROWSER
-https://github.com/P7-33/SWAPBROWSER.wiki.git
-https://bitcointalk.org/index.php?topic=2519271.msg52211890#msg52211890
 GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
 ## Disclaimer
@@ -12,25 +10,20 @@ GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`,
 
 Be aware when you download NBMiner binaries from other sources.
 
-## Contract
-
-- BitcoinTalk: https://bitcointalk.org/index.php?topic=5099379
-## Download
-
-[Download here](https://github.com/NebuTech/BTMiner_NebuTech/releases)
+## Contracts
 
 ## Performance (stock settings)
 
 | Algorithm             |  COIN   |  P106-100  |  P104-8G   |   1070ti   |  1080ti  |   2080   | RX580 2048sp |
 | :--------------- | :-----:  | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
-| ethash           | ETH+SWAPBROWSER (SWB) |   21.2M   |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
-| cuckatoo          GRIN31+SWAPBROWSER  (SWB) |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
-| cuckatoo32       |  GRIN32+SWAPBROWSER(SWB) |    0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
-| cuckoo_ae        |  AE+SWAPBROWSER(SWB)|    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
-| progpow_sero     |  SERO+SWAPBROWSER(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
-| kawpow           |  RVN+SWAPBROWSER(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
-| beamv3           |  BEAM+SWAPBROWSER(SWB)|    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
-| octopus          |  CONFLUX+SWAPBROWSER(SWB)|    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     X     |
+| ethash           | ETH+BSWAP (SWB) |   21.2M   |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
+| cuckatoo          GRIN31+BSWAP  (SWB) |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
+| cuckatoo32       |  GRIN32+BSWAP(SWB) |    0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
+| cuckoo_ae        |  AE+BSWAP(SWB)|    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
+| progpow_sero     |  SERO+BSWAP(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
+| kawpow           |  RVN+BSWAP(SWB)|   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
+| beamv3           |  BEAM+BSWAP(SWB)|    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
+| octopus          |  CONFLUX+BSWAP(SWB)|    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     X     |
 | ergo | ERGO+SWAPBROWSER | 42M | 68M | 53M | 64M | 74M | 64M(eth bios) |
 
 ## Features

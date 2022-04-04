@@ -1,7 +1,5 @@
+ #  BSWAP-COIN
 
-
-
-https:// github.com/afortunado21/BROWSER
 GPU Miner for `BBW` , `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`, `SERO`,BBW
 
 ## Disclaimer
@@ -54,8 +52,8 @@ Be aware when you download NBMiner binaries from other sources.
 | progpow_sero     |SERO+SWAPBROWSER (SWB)   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
 | kawpow           |RVN+SWAPBROWSER (SWB)  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
 | beamv3 |BEAM+ SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
-| octopus |CONFLUX+SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
-| ergo | ERGO+SWAPBROWSER | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
+| octopus |CONFLUX+BSWAP (SWB) | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
+| ergo | ERGO+BSWAP | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
 
 - \* Compute Capability reference link: [wikipedia](<https://en.wikipedia.org/wiki/CUDA#GPUs_supported>)
 

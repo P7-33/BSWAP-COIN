@@ -45,13 +45,13 @@ Be aware when you download NBMiner binaries from other sources.
 
 | Algorithm        |  Coin   | Compute Capability | Memory (Win7 & Linux) | Memory (Win10) |
 | :--------------- | :-----: | :----------------: | :-------------------: | :------------: |
-| ethash           |ETH+SWAPBROWSER (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB      |
-| cuckatoo         |GRIN31+SWAPBROWSER  (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
-| cuckatoo32 |GRIN32+SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
-| cuckoo_ae        |AE+SWAPBROWSER(SWB)    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
-| progpow_sero     |SERO+SWAPBROWSER (SWB)   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| kawpow           |RVN+SWAPBROWSER (SWB)  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| beamv3 |BEAM+ SWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
+| ethash           |ETH+BSWAP (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB      |
+| cuckatoo         |GRIN31+BSWAP (SWB)| 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
+| cuckatoo32 |GRIN32+BSWAP (SWB) | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
+| cuckoo_ae        |AE+BSWAP(SWB)    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
+| progpow_sero     |SERO+BSWAP (SWB)   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
+| kawpow           |RVN+BSWAP (SWB)  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
+| beamv3 |BEAM+ BSWAPBROWSER (SWB) | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
 | octopus |CONFLUX+BSWAP (SWB) | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
 | ergo | ERGO+BSWAP | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
 
